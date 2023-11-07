@@ -1,0 +1,53 @@
+.events-exhibitions {
+    padding: 4rem 0;
+    background: #f9f9f9;
+  }
+  
+  .events-exhibitions .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .events-exhibitions h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .events-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .event-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background: #fff;
+  }
+  
+  .event-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .event-item .date,
+  .event-item .location {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .event-item .description {
+    font-size: 1rem;
+    color: #555;
+    margin: 1rem 0;
+  }
+  
+  .event-item .more-info-link {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+  }
+  
